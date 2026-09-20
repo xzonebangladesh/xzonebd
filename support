@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XZ SUPPORT</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-[#f2f2f7] dark:bg-black text-black dark:text-white min-h-screen transition-colors duration-300 flex flex-col justify-between">
+    
+    <div class="max-w-xl mx-auto px-4 py-8 space-y-4 w-full">
+        <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-6 shadow-sm transition-all duration-300 border border-black/5 dark:border-white/5">
+            <div class="flex items-center space-x-4">
+                <div class="w-16 h-16 bg-gradient-to-tr from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg shadow-indigo-500/10 animate-[pulse_3s_infinite] flex-shrink-0">
+                    <i class="fa-solid fa-headset text-3xl text-white"></i>
+                </div>
+                <h1 class="text-2xl font-bold tracking-tight">XZ SUPPORT</h1>
+            </div>
+            <p class="text-xs text-[#8e8e93] dark:text-[#8e8e93] mt-3 font-medium uppercase tracking-wider">Support Center</p>
+        </div>
+
+        <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-6 shadow-sm transition-all duration-300 border border-black/5 dark:border-white/5">
+            <h2 class="text-lg font-bold mb-2">Hello, how can we help you?</h2>
+            <p class="text-sm text-slate-500 dark:text-[#8e8e93] leading-relaxed">
+                Our support team is always ready for any issue or question you may have. Start a conversation below through whichever option suits you best.
+            </p>
+        </div>
+
+        <a id="tg-btn" href="https://t.me/@jakirahmed320" target="_blank" 
+           class="block transform active:scale-[0.97] transition-all duration-150">
+            <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-5 shadow-sm flex items-center justify-between group border border-black/5 dark:border-white/5">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-[#0088cc] rounded-2xl flex items-center justify-center text-white shadow-md shadow-sky-500/10">
+                        <i class="fa-brands fa-telegram text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-base font-semibold">Telegram Support</h3>
+                        <p class="text-xs text-slate-400 dark:text-[#8e8e93]">Talk to us directly</p>
+                    </div>
+                </div>
+                <div class="text-[#c7c7cc] dark:text-[#38383a] group-hover:text-black dark:group-hover:text-white transition-colors pr-2">
+                    <i class="fa-solid fa-chevron-right text-lg"></i>
+                </div>
+            </div>
+        </a>
+
+        <a id="email-btn" href="mailto:xzone.bangladesh@gmail.com" 
+           class="block transform active:scale-[0.97] transition-all duration-150">
+            <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-5 shadow-sm flex items-center justify-between group border border-black/5 dark:border-white/5">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 bg-[#EA4335] rounded-2xl flex items-center justify-center text-white shadow-md shadow-rose-500/10">
+                        <i class="fa-solid fa-envelope text-2xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-base font-semibold">Email Support</h3>
+                        <p class="text-xs text-slate-400 dark:text-[#8e8e93]">xzone.bangladesh@gmail.com</p>
+                    </div>
+                </div>
+                <div class="text-[#c7c7cc] dark:text-[#38383a] group-hover:text-black dark:group-hover:text-white transition-colors pr-2">
+                    <i class="fa-solid fa-chevron-right text-lg"></i>
+                </div>
+            </div>
+        </a>
+
+        <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-6 shadow-sm border border-black/5 dark:border-white/5 space-y-4">
+            <h2 class="text-lg font-bold flex items-center gap-2 mb-2">
+                <i class="fa-solid fa-circle-question text-indigo-500"></i> Frequently Asked Questions
+            </h2>
+            
+            <div class="space-y-3">
+                <div class="border-b border-black/5 dark:border-white/5 pb-3">
+                    <button class="faq-toggle w-full flex justify-between items-center py-2 text-left group">
+                        <span class="text-sm font-semibold group-hover:text-indigo-500 transition-colors">What kind of development services do you provide?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-indigo-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer hidden text-xs text-slate-500 dark:text-[#8e8e93] leading-relaxed mt-1">I mainly work on custom web applications, backend systems, API development, and full-stack solutions. I can build any custom solution based on your needs.</div>
+                </div>
+
+                <div class="border-b border-black/5 dark:border-white/5 pb-3">
+                    <button class="faq-toggle w-full flex justify-between items-center py-2 text-left group">
+                        <span class="text-sm font-semibold group-hover:text-indigo-500 transition-colors">How long does it usually take to complete a project?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-indigo-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer hidden text-xs text-slate-500 dark:text-[#8e8e93] leading-relaxed mt-1">The timeline depends on the project’s complexity and requirements. Small tasks usually take 3-5 days, while larger projects can take 2-4 weeks or more.</div>
+                </div>
+
+                <div class="pb-1">
+                    <button class="faq-toggle w-full flex justify-between items-center py-2 text-left group">
+                        <span class="text-sm font-semibold group-hover:text-indigo-500 transition-colors">Will I get any technical support after the work is done?</span>
+                        <i class="fa-solid fa-chevron-down text-xs text-slate-400 group-hover:text-indigo-500 transition-transform duration-200"></i>
+                    </button>
+                    <div class="faq-answer hidden text-xs text-slate-500 dark:text-[#8e8e93] leading-relaxed mt-1">Yes, after any project is successfully handed over, I provide completely free support and bug fixing for a set period (usually 15-30 days) so your project keeps running smoothly.</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white dark:bg-[#1c1c1e] rounded-3xl p-4 shadow-sm flex items-center justify-center space-x-2 transition-all duration-300 border border-black/5 dark:border-white/5">
+            <span id="status-dot-container" class="relative flex h-2.5 w-2.5"></span>
+            <span id="status-text" class="text-xs font-medium transition-colors duration-300">Loading...</span>
+        </div>
+
+    </div>
+
+    <div class="text-center py-6 text-xs text-slate-400 dark:text-[#8e8e93]/60 font-medium">
+        <p>DEVELOPER BY <a href="profile" target="_blank" class="font-bold text-indigo-500 dark:text-indigo-400 hover:underline">X ZONE</a></p>
+    </div>
+
+    <div class="fixed bottom-6 right-6 z-50 flex flex-col items-center">
+        <div id="social-menu" class="flex flex-col items-center space-y-2 mb-3 scale-0 opacity-0 pointer-events-none origin-bottom transition-all duration-300">
+            <a href="https://www.facebook.com/jakirahmed.fb" target="_blank" class="w-12 h-12 bg-[#1877F2] rounded-full flex items-center justify-center text-white shadow-lg transform hover:scale-110 transition-all">
+                <i class="fa-brands fa-facebook-f text-lg"></i>
+            </a>
+            <a href="https://vm.tiktok.com/ZS922kbDmEBHa-Bw8gy/" target="_blank" class="w-12 h-12 bg-black border border-white/10 rounded-full flex items-center justify-center text-white shadow-lg transform hover:scale-110 transition-all">
+                <i class="fa-brands fa-tiktok text-lg"></i>
+            </a>
+        </div>
+        <button id="social-fab" class="w-14 h-14 bg-indigo-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-indigo-700 transition-colors focus:outline-none">
+            <i class="fa-solid fa-plus text-xl transition-transform duration-300" id="fab-icon"></i>
+        </button>
+    </div>
+
+    <div id="offline-modal" class="fixed inset-0 z-50 items-center justify-center p-4 bg-black/60 hidden transition-opacity duration-300">
+        <div class="bg-white dark:bg-[#1c1c1e] w-full max-w-sm rounded-3xl p-6 shadow-2xl border border-black/5 dark:border-white/5 transform scale-100 transition-transform duration-300">
+            <div class="w-12 h-12 bg-rose-500/10 text-rose-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i class="fa-solid fa-clock text-xl"></i>
+            </div>
+            <h3 class="text-lg font-bold text-center mb-2">Sorry! We’re offline</h3>
+            <div id="modal-text" class="text-center mb-6"></div>
+            <div class="flex flex-col space-y-2">
+                <button id="modal-proceed-btn" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-2xl font-semibold text-sm transition-colors shadow-lg shadow-indigo-500/25">
+                    Send message anyway
+                </button>
+                <button id="modal-close-btn" class="w-full py-3 bg-gray-100 dark:bg-zinc-800 hover:bg-gray-200 dark:hover:bg-zinc-700 text-slate-700 dark:text-slate-200 rounded-2xl font-semibold text-sm transition-colors">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+  <script>
+        function checkStatus() {
+            const now = new Date();
+            const hours = now.getHours();
+            const day = now.getDay();
+
+            let isOffline = false;
+            let offlineReason = "";
+
+            if (hours >= 1 && hours < 10) {
+                isOffline = true;
+                offlineReason = "Our support is closed daily";
+            }
+            else if (day === 5 && hours >= 12 && hours < 14) {
+                isOffline = true;
+                offlineReason = "Our support is temporarily closed on Fridays from 12:00 PM to 2:00 PM for the Jumu’ah prayer break.";
+            }
+
+            return { isOffline, offlineReason };
+        }
+
+        function updateUI() {
+            const { isOffline } = checkStatus();
+            const statusDotContainer = document.getElementById('status-dot-container');
+            const statusText = document.getElementById('status-text');
+
+            if (isOffline) {
+                statusDotContainer.innerHTML = `
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-rose-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-rose-500"></span>
+                    </span>
+                `;
+                statusText.innerText = "Our representative is currently offline";
+                statusText.className = "text-xs font-semibold text-rose-500 dark:text-rose-400 transition-colors duration-300";
+            } else {
+                statusDotContainer.innerHTML = `
+                    <span class="relative flex h-2.5 w-2.5">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
+                    </span>
+                `;
+                statusText.innerText = "Our representative is online now";
+                statusText.className = "text-xs font-semibold text-emerald-500 dark:text-emerald-400 transition-colors duration-300";
+            }
+        }
+
+        const tgBtn = document.getElementById('tg-btn');
+        const modal = document.getElementById('offline-modal');
+        const modalText = document.getElementById('modal-text');
+        const modalProceedBtn = document.getElementById('modal-proceed-btn');
+        const modalCloseBtn = document.getElementById('modal-close-btn');
+
+        let pendingRedirectUrl = "";
+
+        function handleSupportClick(event, url) {
+            const { isOffline, offlineReason } = checkStatus();
+            if (isOffline) {
+                event.preventDefault();
+                pendingRedirectUrl = url;
+
+                modalText.innerHTML = `
+                    <p class="text-xs text-rose-500 font-semibold mb-2">Support is currently on a break</p>
+                    <p class="text-sm text-slate-600 dark:text-[#8e8e93] mb-4">${offlineReason}</p>
+                    <div class="bg-slate-50 dark:bg-zinc-800/40 p-3 rounded-2xl text-[11px] text-slate-500 dark:text-[#8e8e93] text-left space-y-1">
+                        <p class="font-bold text-slate-700 dark:text-slate-200">Our schedule:</p>
+                        <p>• Daily: 10:00 AM to 1:00 AM</p>
+                        <p>• Friday break: 12:00 PM to 2:00 PM</p>
+                    </div>
+                `;
+                modal.classList.remove('hidden');
+                modal.classList.add('flex');
+            }
+        }
+
+        tgBtn.addEventListener('click', (e) => handleSupportClick(e, 'https://t.me/@jakirahmed320'));
+
+        modalProceedBtn.addEventListener('click', () => {
+            if (pendingRedirectUrl) {
+                window.open(pendingRedirectUrl, '_blank');
+            }
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        });
+
+        modalCloseBtn.addEventListener('click', () => {
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+        });
+
+        const faqAnswers = document.querySelectorAll('.faq-answer');
+        faqAnswers.forEach(ans => {
+            ans.dataset.text = ans.textContent.trim();
+            ans.textContent = "";
+        });
+
+        function typeWriter(element, text, speed = 15) {
+            if (element.timeoutId) {
+                clearInterval(element.timeoutId);
+            }
+            element.textContent = "";
+            let index = 0;
+            element.timeoutId = setInterval(() => {
+                if (index < text.length) {
+                    element.textContent += text.charAt(index);
+                    index++;
+                } else {
+                    clearInterval(element.timeoutId);
+                    element.timeoutId = null;
+                }
+            }, speed);
+        }
+
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                const isOpen = !answer.classList.contains('hidden');
+
+                faqAnswers.forEach(ans => {
+                    if (ans !== answer) {
+                        ans.classList.add('hidden');
+                        if (ans.timeoutId) {
+                            clearInterval(ans.timeoutId);
+                            ans.timeoutId = null;
+                        }
+                        ans.textContent = "";
+                    }
+                });
+
+                document.querySelectorAll('.faq-toggle i').forEach(ic => {
+                    if (ic !== icon) {
+                        ic.classList.remove('rotate-180');
+                    }
+                });
+
+                if (!isOpen) {
+                    answer.classList.remove('hidden');
+                    icon.classList.add('rotate-180');
+                    typeWriter(answer, answer.dataset.text, 15);
+                } else {
+                    answer.classList.add('hidden');
+                    icon.classList.remove('rotate-180');
+                    if (answer.timeoutId) {
+                        clearInterval(answer.timeoutId);
+                        answer.timeoutId = null;
+                    }
+                    answer.textContent = "";
+                }
+            });
+        });
+
+        const fabBtn = document.getElementById('social-fab');
+        const socialMenu = document.getElementById('social-menu');
+        const fabIcon = document.getElementById('fab-icon');
+
+        fabBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            socialMenu.classList.toggle('scale-0');
+            socialMenu.classList.toggle('opacity-0');
+            socialMenu.classList.toggle('pointer-events-none');
+            fabIcon.classList.toggle('rotate-45');
+        });
+
+        document.addEventListener('click', () => {
+            socialMenu.classList.add('scale-0');
+            socialMenu.classList.add('opacity-0');
+            socialMenu.classList.add('pointer-events-none');
+            fabIcon.classList.remove('rotate-45');
+        });
+
+        updateUI();
+        setInterval(updateUI, 60000);
+</script>
+</body>
+</html>
